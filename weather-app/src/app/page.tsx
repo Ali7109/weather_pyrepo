@@ -78,8 +78,8 @@ export default function Home() {
 				) : (
 					weather && (
 						<div className="text-black h-52">
-							<div className="w-full flex items-baseline">
-								<div className="w-2/3">
+							<div className="w-full flex items-baseline pl-5 pr-5">
+								<div className="w-2/3 overflow-clip">
 									<h1
 										className={`text-${
 											weather.name.length > 14
@@ -95,8 +95,8 @@ export default function Home() {
 										{timezoneFunction(weather.timezone)}
 									</h2>
 								</div>
-								<div className="w-1/3 m-auto">
-									<h2 className="text-4xl">
+								<div className=" w-1/3 my-auto text-right">
+									<h2 className="text-5xl">
 										{Math.round(weather.main.temp - 273)}
 										&deg;
 									</h2>
