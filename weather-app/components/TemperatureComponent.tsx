@@ -23,19 +23,19 @@ const TempCont = styled("div")({
 const TemperatureComponent = ({ tempComp }: TempProps) => {
 	return (
 		<>
-			<TempCont className="w-full text-center ">
+			<TempCont className="w-full text-center min-w-fit">
 				<h2 className="text-2xl">
 					{Math.round(tempComp.temp_min - 273)}&deg;
 				</h2>
 				<h3>low</h3>
 			</TempCont>
-			<TempCont className="w-full text-center ">
+			<TempCont className="w-full text-center min-w-fit ">
 				<h2 className="text-2xl">
 					{Math.round(tempComp.feels_like - 273)}&deg;
 				</h2>
 				<h3>real feel</h3>
 			</TempCont>
-			<TempCont className="w-full text-center">
+			<TempCont className="w-full text-center min-w-fit">
 				<h2 className="text-2xl">
 					{Math.round(tempComp.temp_max - 273)}&deg;
 				</h2>
