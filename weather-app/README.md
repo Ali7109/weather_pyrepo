@@ -2,12 +2,6 @@
 
 Welcome to our weather app repository! This project combines the power of Next.js for the frontend and Python Flask for the backend to provide you with an intuitive and informative weather forecasting application.
 
-## Features
-
-- Real-time weather data: Get up-to-date weather information for any location.
-- Responsive design: Enjoy a seamless experience on both desktop and mobile devices.
-- User-friendly interface: Intuitive and easy-to-navigate UI for a smooth user experience.
-- Interactive maps: Visualize weather patterns using interactive maps and charts.
 
 ## Technologies Used
 
